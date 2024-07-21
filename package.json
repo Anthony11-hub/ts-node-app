@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nodemon dist/app.js",
     "start": "node dist/app.js",
-    "build": "tsc --watch"
+    "build": "tsc",
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "",
